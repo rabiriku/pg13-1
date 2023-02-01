@@ -1,5 +1,5 @@
-#include"Struct.h"
-#include"Bullet.h"
+#include"struct.h"
+#include"bullet.h"
 #pragma once
 class Player {
 public:

@@ -1,6 +1,6 @@
 ﻿#include <Novice.h>
 #include"enemy.h"
-#include"Player.h"
+#include"player.h"
 #include<math.h>
 
 const char kWindowTitle[] = "GC1A_03_ウエダリクト";
@@ -21,7 +21,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	Enemy* enemyA = new Enemy(30, 500, 400, Living, RED);
 	Enemy* enemyB = new Enemy(30, 80, 100, Living, RED);
 
-	Player* player = new Player(400, 700);
+	Player* player = new Player(400, 600);
 
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {

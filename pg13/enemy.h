@@ -1,5 +1,5 @@
 #pragma once
-#include"Object.h"
+#include"object.h"
 #include"Novice.h"
 
 enum type {

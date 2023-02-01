@@ -1,4 +1,4 @@
-#include "Bullet.h"
+#include "bullet.h"
 #include"Novice.h"
 
 Bullet::Bullet(int damage, int speed, float* posX, float* posY) {
